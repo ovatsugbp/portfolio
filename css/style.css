@@ -1,3 +1,44 @@
+/* COLLOR PALLETE
+https://coolors.co/d9bdc5-724cf9-f3ffc6-e8c7de-1b1b3a
+ QueenPink - #d9bdc5
+ MajorelleBlue- #724cf9
+ Cream - #f3ffc6
+ Thistle - #e8c7de
+ SpaceCadet - #1b1b3a  */
+
+/* Global Styles ********************************************/
+
+body {
+    color: #1b1b3a;
+}
 img {
     width: 300px;
+}
+
+/* Profile ********************************************/
+header {
+    background-color: #724cf9;
+}
+
+
+/* Projects ********************************************/
+.projects {
+    background-color: #f3ffc6;
+}
+
+
+
+/* Work Experience ********************************************/
+.workexp{
+    background-color: #f3ffc6;
+}
+
+
+/* Education ********************************************/
+
+
+/* Contact Info ********************************************/
+
+footer {
+    background-color: #724cf9;
 }
