@@ -10,9 +10,20 @@ https://coolors.co/d9bdc5-724cf9-f3ffc6-e8c7de-1b1b3a
 
 body {
     color: #1b1b3a;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
+}
+h2 {
+    margin: 0;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
 }
 
 /* Profile ********************************************/
@@ -35,7 +46,9 @@ header {
 
 
 /* Education ********************************************/
-
+.education {
+    background-color: #f3ffc6;
+}
 
 /* Contact Info ********************************************/
 
