@@ -12,12 +12,28 @@ body {
     color: #1b1b3a;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
 }
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1;
+    
+}
 h2 {
+    
+    font-size: 40px;
+    font-weight: 400;
+}
+h1, h2 {
     margin: 0;
+    font-family: 'Cinzel', serif;
+    text-align: center;
 }
 
 .content-wrap {
@@ -29,6 +45,7 @@ h2 {
 /* Profile ********************************************/
 header {
     background-color: #724cf9;
+    color: #F3FFC6;
 }
 
 
@@ -48,6 +65,7 @@ header {
 /* Education ********************************************/
 .education {
     background-color: #f3ffc6;
+    
 }
 
 /* Contact Info ********************************************/
