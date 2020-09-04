@@ -7,6 +7,12 @@ https://coolors.co/d9bdc5-724cf9-f3ffc6-e8c7de-1b1b3a
  SpaceCadet - #1b1b3a  */
 
 /* Global Styles ********************************************/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 
 body {
     color: #1b1b3a;
@@ -39,13 +45,14 @@ h1, h2 {
 .content-wrap {
     width: 900px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 /* Profile ********************************************/
 header {
     background-color: #724cf9;
     color: #F3FFC6;
+    text-align: center;
 }
 
 
@@ -53,12 +60,30 @@ header {
 .projects {
     background-color: #f3ffc6;
 }
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #d9bdc5;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 
 
 
 /* Work Experience ********************************************/
 .workexp{
     background-color: #f3ffc6;
+    }
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    border-bottom: 1px dashed #d9bdc5;
 }
 
 
@@ -72,4 +97,21 @@ header {
 
 footer {
     background-color: #724cf9;
+    text-align: center;
 }
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+}
+
+.contact-list a {
+    display: inline-block;
+    padding: 15px;
+}
+/* .mail-to{
+    background-image: url(/images/mail.png);
+    background-repeat: no-repeat;
+    height: 50px;
+} */
