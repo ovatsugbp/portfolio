@@ -113,9 +113,14 @@ footer {
     background-color: #724cf9;
 }
 .contact-list {
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
 
+}
+.contact-list img{
+    width: 40px;
 }
 
 .contact-list a {
@@ -155,9 +160,10 @@ footer {
     .education {
         background-image: none;
     }
-    .contact-list a {
+    .contact-list a img {
         display: flex;
         justify-items: center;
         padding: 5px;
+        width: 35px;
     }
 }
